@@ -1,0 +1,46 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F5F5F5"/>
+    </linearGradient>
+    <radialGradient id="cheek" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 300) scale(28)">
+      <stop stop-color="#F7C6C6"/>
+      <stop offset="1" stop-color="rgba(247, 198, 198, 0)"/>
+    </radialGradient>
+  </defs>
+
+  <g>
+    <ellipse cx="320" cy="420" rx="165" ry="180" fill="#1E1E1E"/>
+    <ellipse cx="320" cy="430" rx="120" ry="145" fill="#FFFDF6"/>
+
+    <circle cx="320" cy="230" r="120" fill="#1E1E1E"/>
+    <circle cx="320" cy="245" r="95" fill="#FFFDF6"/>
+
+    <ellipse cx="250" cy="305" rx="26" ry="18" fill="#F7C6C6" opacity="0.6"/>
+    <ellipse cx="390" cy="305" rx="26" ry="18" fill="#F7C6C6" opacity="0.6"/>
+
+    <circle cx="285" cy="300" r="12" fill="#1E1E1E"/>
+    <circle cx="355" cy="300" r="12" fill="#1E1E1E"/>
+    <circle cx="282" cy="297" r="4" fill="#FFFFFF"/>
+    <circle cx="352" cy="297" r="4" fill="#FFFFFF"/>
+
+    <circle cx="285" cy="300" r="28" stroke="#3E3A35" stroke-width="4" fill="none"/>
+    <circle cx="355" cy="300" r="28" stroke="#3E3A35" stroke-width="4" fill="none"/>
+    <rect x="305" y="298" width="30" height="4" rx="2" fill="#3E3A35"/>
+
+    <path d="M320 318C310 318 302 326 302 336C302 349 311 360 320 360C329 360 338 349 338 336C338 326 330 318 320 318Z" fill="#F0B24A"/>
+
+    <path d="M205 375C230 340 265 325 300 320H340C375 325 410 340 435 375L460 455C465 470 455 485 440 485H200C185 485 175 470 180 455L205 375Z" fill="url(#coat)"/>
+    <path d="M245 375C262 352 286 342 310 340H330C354 342 378 352 395 375L410 432C413 442 406 452 396 452H244C234 452 227 442 230 432L245 375Z" fill="#FFFFFF"/>
+
+    <rect x="300" y="370" width="40" height="50" rx="10" fill="#EAF6FF"/>
+    <path d="M320 370L305 395H335L320 420L325 400H310L320 370Z" fill="#F7C948"/>
+
+    <circle cx="320" cy="404" r="6" fill="#E0E0E0"/>
+    <circle cx="320" cy="426" r="6" fill="#E0E0E0"/>
+
+    <ellipse cx="260" cy="560" rx="60" ry="22" fill="#F0B24A"/>
+    <ellipse cx="380" cy="560" rx="60" ry="22" fill="#F0B24A"/>
+  </g>
+</svg>
